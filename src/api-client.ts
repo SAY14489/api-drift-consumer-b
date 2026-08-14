@@ -9,7 +9,7 @@ export async function getProduct(id: string) {
 
 // Uses removed /orders endpoint - should be CONFIRMED and flagged
 export async function getOrders() {
-  return axios.get(`${API_BASE}/orders`);
+  return axios.get(`${API_BASE}/admin/orders`);
 }
 
 // Complex string building - should be AMBIGUOUS
